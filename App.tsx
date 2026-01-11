@@ -11,7 +11,7 @@ import {
   Instagram,
   MessageCircle
 } from 'lucide-react';
-import { SERVICES, STATS, REPAIR_STEPS, HOURS, FAQS, WHATSAPP_LINK, BRANDS } from './constants';
+import { SERVICES, STATS, REPAIR_STEPS, HOURS, FAQS, WHATSAPP_LINK, BRANDS } from './constants.tsx';
 
 const LOGO_URL = "https://i.imgur.com/u0PSdAo.jpeg";
 const INSTAGRAM_URL = "https://www.instagram.com/jkinfotech?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
