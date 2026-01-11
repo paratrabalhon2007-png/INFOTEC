@@ -37,7 +37,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen selection:bg-orange-500 selection:text-white">
+    <div className="min-h-screen selection:bg-blue-500 selection:text-white">
       {/* Header */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-3' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
@@ -64,7 +64,7 @@ const App: React.FC = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-black px-6 py-2.5 rounded-full font-bold text-[12px] uppercase tracking-wider hover:bg-orange-500 hover:text-white transition-all"
+              className="bg-white text-black px-6 py-2.5 rounded-full font-bold text-[12px] uppercase tracking-wider hover:bg-blue-600 hover:text-white transition-all"
             >
               Orçamento Online
             </a>
@@ -101,11 +101,11 @@ const App: React.FC = () => {
 
       {/* Hero Section */}
       <section id="início" className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-        <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-orange-500/10 blur-[120px] rounded-full"></div>
+        <div className="absolute top-0 right-0 -z-10 w-1/2 h-full bg-blue-500/10 blur-[120px] rounded-full"></div>
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 glass text-[12px] font-medium tracking-widest text-orange-500 uppercase">
-              <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 glass text-[12px] font-medium tracking-widest text-blue-400 uppercase">
+              <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
               Assistência Técnica Multi-marcas
             </div>
             <h1 className="text-5xl md:text-7xl font-bold font-outfit leading-[1.1]">
@@ -120,7 +120,7 @@ const App: React.FC = () => {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-black px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-orange-500 hover:text-white transition-all group"
+                className="bg-white text-black px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-blue-600 hover:text-white transition-all group"
               >
                 Agendar Reparo
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -134,7 +134,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className="relative group">
-            <div className="absolute -inset-4 bg-orange-500/20 rounded-[2.5rem] blur-2xl opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div className="absolute -inset-4 bg-blue-500/20 rounded-[2.5rem] blur-2xl opacity-50 group-hover:opacity-100 transition-opacity"></div>
             <img 
               src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?q=80&w=1200&auto=format&fit=crop" 
               alt="Reparo de Smartphone" 
@@ -169,7 +169,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="space-y-4">
-              <h2 className="text-orange-500 font-bold uppercase tracking-[0.2em] text-sm">Nossas Especialidades</h2>
+              <h2 className="text-blue-500 font-bold uppercase tracking-[0.2em] text-sm">Nossas Especialidades</h2>
               <h3 className="text-4xl md:text-5xl font-bold font-outfit">Suporte Completo para <br /> seu Smartphone.</h3>
             </div>
             <p className="text-gray-400 max-w-md text-lg">
@@ -179,15 +179,15 @@ const App: React.FC = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {SERVICES.map((service) => (
-              <div key={service.id} className="glass p-8 rounded-[2rem] hover:border-orange-500/50 transition-all group flex flex-col justify-between h-full">
+              <div key={service.id} className="glass p-8 rounded-[2rem] hover:border-blue-500/50 transition-all group flex flex-col justify-between h-full">
                 <div>
-                  <div className="mb-6 p-4 rounded-2xl bg-white/5 w-fit group-hover:bg-orange-500/10 transition-colors">
+                  <div className="mb-6 p-4 rounded-2xl bg-white/5 w-fit group-hover:bg-blue-500/10 transition-colors">
                     {service.icon}
                   </div>
                   <h4 className="text-2xl font-bold mb-4">{service.title}</h4>
                   <p className="text-gray-400 leading-relaxed mb-8">{service.description}</p>
                 </div>
-                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-orange-500 hover:text-orange-400">
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-blue-500 hover:text-blue-400">
                   Saiba Mais <ChevronRight size={16} />
                 </a>
               </div>
@@ -212,10 +212,10 @@ const App: React.FC = () => {
 
       {/* Process Steps */}
       <section className="py-24 relative overflow-hidden">
-        <div className="absolute left-0 bottom-0 -z-10 w-1/3 h-full bg-orange-500/5 blur-[100px] rounded-full"></div>
+        <div className="absolute left-0 bottom-0 -z-10 w-1/3 h-full bg-blue-500/5 blur-[100px] rounded-full"></div>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-20 space-y-4">
-            <h2 className="text-orange-500 font-bold uppercase tracking-[0.2em] text-sm">Como Trabalhamos</h2>
+            <h2 className="text-blue-500 font-bold uppercase tracking-[0.2em] text-sm">Como Trabalhamos</h2>
             <h3 className="text-4xl font-bold font-outfit">3 Passos Simples para o Reparo</h3>
           </div>
           
@@ -247,26 +247,26 @@ const App: React.FC = () => {
               <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop" alt="Electronics" className="rounded-3xl aspect-square object-cover mt-8" />
             </div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glass p-6 rounded-2xl text-center min-w-[180px]">
-              <p className="text-orange-500 font-bold text-3xl">99%</p>
+              <p className="text-blue-500 font-bold text-3xl">99%</p>
               <p className="text-[10px] uppercase font-bold tracking-widest text-gray-400">Taxa de Sucesso em Placas</p>
             </div>
           </div>
           <div className="order-1 md:order-2 space-y-8">
-            <h2 className="text-orange-500 font-bold uppercase tracking-[0.2em] text-sm">Nossa História</h2>
+            <h2 className="text-blue-500 font-bold uppercase tracking-[0.2em] text-sm">Nossa História</h2>
             <h3 className="text-4xl md:text-5xl font-bold font-outfit leading-tight">Excelência Técnica em <br /> Cada Microssolda.</h3>
             <p className="text-gray-400 text-lg leading-relaxed">
               A JK Infotech nasceu com o propósito de oferecer serviços de alta complexidade que as assistências comuns não realizam. Somos especializados em recuperação de placas lógicas e troca de vidros preservando a originalidade do LCD em aparelhos <b>iPhone, Samsung, Xiaomi</b> e muitos outros.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
-                <div className="mt-1 p-1 bg-orange-500 rounded-full text-white"><ArrowRight size={12} /></div>
+                <div className="mt-1 p-1 bg-blue-500 rounded-full text-white"><ArrowRight size={12} /></div>
                 <div>
                   <p className="font-bold">Laboratório Avançado</p>
                   <p className="text-sm text-gray-500">Equipado com microscópios de precisão e insumos de primeira linha.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="mt-1 p-1 bg-orange-500 rounded-full text-white"><ArrowRight size={12} /></div>
+                <div className="mt-1 p-1 bg-blue-500 rounded-full text-white"><ArrowRight size={12} /></div>
                 <div>
                   <p className="font-bold">Especialistas em Todas as Marcas</p>
                   <p className="text-sm text-gray-500">Constantemente atualizados com as novas tecnologias Apple, Samsung, Xiaomi e Android em geral.</p>
@@ -281,7 +281,7 @@ const App: React.FC = () => {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-orange-500 font-bold uppercase tracking-[0.2em] text-sm">Dúvidas Frequentes</h2>
+            <h2 className="text-blue-500 font-bold uppercase tracking-[0.2em] text-sm">Dúvidas Frequentes</h2>
             <h3 className="text-4xl font-bold font-outfit">Perguntas comuns</h3>
           </div>
           <div className="space-y-4">
@@ -305,11 +305,11 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
           <div className="space-y-12">
             <div>
-              <h2 className="text-orange-500 font-bold uppercase tracking-[0.2em] text-sm mb-4">Onde Estamos</h2>
+              <h2 className="text-blue-500 font-bold uppercase tracking-[0.2em] text-sm mb-4">Onde Estamos</h2>
               <h3 className="text-4xl font-bold font-outfit mb-8">Visite nossa loja física.</h3>
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-500 shrink-0">
                     <MapPin />
                   </div>
                   <div>
@@ -318,7 +318,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-500 shrink-0">
                     <Clock />
                   </div>
                   <div>
@@ -332,7 +332,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-500 shrink-0">
                     <Phone />
                   </div>
                   <div>
@@ -361,7 +361,7 @@ const App: React.FC = () => {
           <div className="h-[400px] lg:h-full min-h-[500px] rounded-[2.5rem] overflow-hidden border border-white/10 grayscale hover:grayscale-0 transition-all">
             <div className="w-full h-full bg-zinc-900 relative flex items-center justify-center">
               <div className="text-center space-y-4 px-8">
-                <MapPin size={48} className="text-orange-500 mx-auto" />
+                <MapPin size={48} className="text-blue-500 mx-auto" />
                 <p className="font-bold text-xl uppercase tracking-widest">Poço Verde, SE</p>
                 <p className="text-gray-500">Localizados no centro para melhor te atender.</p>
                 <a 
@@ -395,7 +395,7 @@ const App: React.FC = () => {
               href={INSTAGRAM_URL} 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="p-3 glass rounded-full hover:text-orange-500 transition-colors"
+              className="p-3 glass rounded-full hover:text-blue-500 transition-colors"
               title="Instagram"
             >
               <Instagram size={24} />

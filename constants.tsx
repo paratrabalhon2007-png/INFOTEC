@@ -20,37 +20,37 @@ export const SERVICES = [
     id: '1',
     title: 'Troca de Vidro',
     description: 'Preserve sua tela original trocando apenas o vidro quebrado com tecnologia de ponta para todas as marcas.',
-    icon: <Layers className="w-8 h-8 text-orange-500" />
+    icon: <Layers className="w-8 h-8 text-blue-500" />
   },
   {
     id: '2',
     title: 'Reparo de Placas',
     description: 'Consertos avançados em micro-componentes, recuperação de trilhas e soldas BGA em iPhone e Android.',
-    icon: <Cpu className="w-8 h-8 text-orange-500" />
+    icon: <Cpu className="w-8 h-8 text-blue-500" />
   },
   {
     id: '3',
     title: 'Danos por Água',
     description: 'Limpeza química e desoxidação profissional para recuperar aparelhos molhados de qualquer modelo.',
-    icon: <Droplets className="w-8 h-8 text-orange-500" />
+    icon: <Droplets className="w-8 h-8 text-blue-500" />
   },
   {
     id: '4',
     title: 'Troca de Bateria',
     description: 'Baterias de alta qualidade com garantia para devolver a autonomia ao seu smartphone.',
-    icon: <Zap className="w-8 h-8 text-orange-500" />
+    icon: <Zap className="w-8 h-8 text-blue-500" />
   },
   {
     id: '5',
     title: 'Câmeras e Sensores',
     description: 'Reparo de foco, troca de lentes e substituição de sensores biométricos (FaceID/TouchID).',
-    icon: <Smartphone className="w-8 h-8 text-orange-500" />
+    icon: <Smartphone className="w-8 h-8 text-blue-500" />
   },
   {
     id: '6',
     title: 'Conectividade',
     description: 'Soluções para problemas de Wi-Fi, Bluetooth e sinal de operadora em qualquer dispositivo.',
-    icon: <Wifi className="w-8 h-8 text-orange-500" />
+    icon: <Wifi className="w-8 h-8 text-blue-500" />
   }
 ];
 
