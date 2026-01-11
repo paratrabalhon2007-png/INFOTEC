@@ -1,0 +1,7 @@
+{
+  "name": "JK Infotech - Assistência Especializada",
+  "description": "Landing page premium para assistência técnica especializada em smartphones e iPhones, com foco em reparos avançados e troca de vidro.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
