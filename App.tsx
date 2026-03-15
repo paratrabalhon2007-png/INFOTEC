@@ -42,12 +42,10 @@ const App: React.FC = () => {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-3' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <img 
-              src={LOGO_URL} 
-              alt="JK Infotech Logo" 
-              className="w-10 h-10 rounded-xl object-cover border border-white/10"
-            />
-            <span className="text-xl font-bold font-outfit tracking-tight">INFOTECH</span>
+            <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center font-bold text-xl font-outfit border border-white/10">
+              JK
+            </div>
+            <span className="text-xl font-bold font-outfit tracking-tight uppercase">Infotech</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
@@ -314,7 +312,7 @@ const App: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-bold text-lg">Endereço</p>
-                    <p className="text-gray-400">Av. Simão Dias, Poço Verde - SE, 49490-000</p>
+                    <p className="text-gray-400">R. Padre José de Anchieta, 131, Poço Verde - SE</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -365,7 +363,7 @@ const App: React.FC = () => {
                 <p className="font-bold text-xl uppercase tracking-widest">Poço Verde, SE</p>
                 <p className="text-gray-500">Localizados no centro para melhor te atender.</p>
                 <a 
-                  href="https://www.google.com/maps/search/Av.+Simão+Dias,+Poço+Verde+49490+000" 
+                  href="https://maps.app.goo.gl/k1yDLEKHZ7dxoqay7" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block px-6 py-2 border border-white/20 rounded-full hover:bg-white/5 transition-colors"
@@ -382,12 +380,10 @@ const App: React.FC = () => {
       <footer className="py-12 px-6 border-t border-white/5 bg-black">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-3">
-            <img 
-              src={LOGO_URL} 
-              alt="JK Infotech Logo" 
-              className="w-10 h-10 rounded-xl object-cover border border-white/10"
-            />
-            <span className="text-lg font-bold font-outfit tracking-tight">JK INFOTECH</span>
+            <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center font-bold text-xl font-outfit border border-white/10">
+              JK
+            </div>
+            <span className="text-lg font-bold font-outfit tracking-tight uppercase">JK INFOTECH</span>
           </div>
           
           <div className="flex gap-6">
